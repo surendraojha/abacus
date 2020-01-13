@@ -1,0 +1,61 @@
+/* contact layout*/
+.contact-container{
+    margin-top: 50px;
+    width: 60%;
+    margin-left: 20%;
+}
+.contact-info-text{
+    text-align: center;
+}
+.contact-info-text h1,h6{
+    padding: 10px;
+}
+.contact-info-text p{
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.contact-info-text h6{
+  padding: 5px;
+  text-align: left;
+  margin-left: 35px;
+}
+.form-bottom-text p{
+  text-align: center;
+  margin-top: 20vh;
+}
+.form-bottom-text button{
+  margin-left: 40%;
+}
+form{
+   
+    margin-left: 5%;
+    margin-top: 5%;
+}
+input[ type=text],input[type=email]{
+    border: none;
+    background-color:transparent;
+    padding: 20px;
+    border-bottom: 1px solid #5f5d5d;
+    width: 350px;
+    
+}
+input[type=text]:focus, input[type=email]:focus {
+  background-color:transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #5f5d5d;
+}
+select{
+  border: none;
+    background-color:transparent;
+    padding: 4px;
+    border-bottom: 1px solid #5f5d5d;
+    width: 350px;
+}
+@media screen and (max-width:1300px){
+  form{
+      display: flex;
+      flex-direction: column;
+  }
+}

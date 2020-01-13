@@ -1,0 +1,142 @@
+/* contact layout*/
+.contact-content{
+    margin: 150px auto 0;
+  width: 100%;
+  max-width: 1000px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.contact-info-text{
+    text-align: center;
+}
+.contact-info-text h1,h6{
+    padding: 10px;
+}
+.contact-info-text p{
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.contact-info-text h6{
+  padding: 5px;
+  text-align: left;
+  margin-left: 35px;
+}
+.contact-content .form-bottom-text p{
+  text-align: center;
+  margin-top: 20vh;
+  font-weight: bold;
+}
+.contact-content .form-bottom-text button{
+  margin-left: 43%;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  
+}
+.contact-content .form-bottom-text button:hover{
+ cursor: pointer;
+}
+.contact-content form {
+    width: 100%;
+    margin: 25px 5px;
+  }
+   
+  .contact-content .top-form,
+  .middle-form,
+  .bottom-form {
+    width: 100%;
+    min-height: 65px;
+    margin: 10px 0;
+  }
+  
+   
+  .contact-content input[type="text"],
+  .contact-content input[type="email"],
+  .contact-content input[type="number"]{
+    border: none;
+    border-bottom: 1px solid #5d5d5d;
+    
+    outline: none;
+    border-radius: 0px;
+    width: 90%;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+    margin-bottom: 40px;
+  }
+   
+  .contact-content form input:focus{
+  
+    
+    outline: none;
+  }
+  .contact-content form select{
+    border: none;
+    border-bottom: 1px solid #5d5d5d;
+    
+    outline: none;
+    border-radius: 0px;
+    width: 90%;
+    box-sizing: border-box;
+    transition: all 0.2s ease; 
+    background-color: transparent;
+    margin-bottom: 40px;
+}
+   
+  .contact-content  .label {
+   
+    
+    margin-bottom: 10px;
+    
+  }
+  
+  
+   
+  /* top-contact */
+  .top-form .inner-form {
+    width: 47.4%;
+    float: left;
+    margin-right: 5%;
+  }
+   
+  .top-form .inner-form:last-child {
+    margin-right: 0;
+  }
+   
+   
+  
+   
+  /* bottom-form */
+  
+   
+  
+   
+  
+  @media screen and (max-width: 540px) {
+    .contact-content {
+      margin: 100px auto 0;
+    }
+    .top-form .inner-form {
+      width: 100%;
+      margin: 5px 0;
+     
+    }
+    .top-form,
+    .middle-form,
+    .bottom-form {
+      margin: 5px 0;
+     
+    }
+    .contact-content .form {
+      margin-top: 10px;
+    }
+    .contact-content form input[type="text"],
+    .contact-content form input[type="text"]
+    {
+       width: 100%;
+       box-sizing: border-box;
+    }
+    .contact-content select{
+        width: 100%;
+       box-sizing: border-box;
+    }
+  }

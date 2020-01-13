@@ -1,0 +1,23 @@
+#delete{
+	padding: 0;
+	border: none;
+	background: none;
+
+}
+
+/*.drop{
+	padding: 0;
+	//border: none;
+	background: none;
+
+}*/
+
+#delete-action{
+	text-decoration: none;
+	color:black;
+}
+
+
+#delete-action:hover{
+	text-decoration: none;
+}

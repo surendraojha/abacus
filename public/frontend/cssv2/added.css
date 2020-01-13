@@ -1,0 +1,11 @@
+.home_search_input {
+    width: 40.33%;
+    border: none;
+    outline: none;
+    height: 25px;
+    padding-left: 20px;
+}
+
+.alert{
+	margin-top:22px;
+}

@@ -1,0 +1,140 @@
+.payment-content{
+  margin:150px auto 0;
+  
+  width: 100%;
+  max-width: 1000px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.payment-info-text{
+  text-align: center;
+}
+.payment-info-text h1{
+   
+}
+.payment-info-text p{
+    padding: 10px;
+   
+    font-size: 23px;
+}
+.payment-info-text h6{
+  padding: 5px;
+  text-align: left;
+  margin-left: 35px;
+  padding: 10px;
+}
+.payment-content .form-bottom-text p{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  
+}
+.payment-content .form-bottom-text button{
+  margin-left: 43%;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.payment-content .form-bottom-text button:hover{
+  cursor: pointer;
+}
+.payment-content form {
+  width: 100%;
+  margin: 25px 5px;
+}
+ 
+.payment-content .top-form {
+  width: 100%;
+  min-height: 105px;
+  margin: 10px 0;
+}
+
+ 
+.payment-content input[type="text"],
+.payment-content input[type="email"]
+{
+  border: none;
+  border-bottom: 1px solid #5d5d5d;
+  
+  outline: none;
+  border-radius: 0px;
+  width: 90%;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+  margin-bottom: 40px;
+}
+.payment-content input[type="number"]{
+  border: none;
+  border-bottom: 1px solid #5d5d5d;
+  
+  outline: none;
+  border-radius: 0px;
+  width: 90%;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+  margin-bottom: 40px;
+}
+.payment-content input[type="date"]{
+  border: none;
+  border-bottom: 1px solid #5d5d5d;
+  
+  outline: none;
+  border-radius: 0px;
+  width: 90%;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+  margin-bottom: 40px;
+}
+ 
+.payment-content form input:focus{
+
+  
+  outline: none;
+}
+ 
+
+ 
+/* top-contact */
+.top-form .inner-form {
+  width: 47.4%;
+  float: left;
+  margin-right: 5%;
+}
+ 
+.top-form .inner-form:last-child {
+  margin-right: 0;
+}
+ 
+ 
+/* middle-form */
+
+ 
+/* bottom-form */
+
+ 
+
+ 
+
+@media screen and (max-width: 540px) {
+  .payment-content {
+    margin: 100px auto 0;
+  }
+  .top-form .inner-form {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .top-form,
+  .middle-form,
+  .bottom-form {
+    margin: 5px 0;
+  }
+  .payment-content form {
+    margin-top: 10px;
+  }
+   .payment-content form input[type="text"],
+   .payment-content form input[type="email"],
+   .payment-content form input[type="number"]
+   {
+     width: 100%;
+     box-sizing: border-box;
+  }
+}

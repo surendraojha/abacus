@@ -1,0 +1,444 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. 1600px
+2. 1440px
+3. 1280px
+4. 1199px
+5. 1024px
+6. 991px
+7. 959px
+8. 880px
+9. 768px
+10. 767px
+11. 539px
+12. 479px
+13. 400px
+
+******************************/
+
+/************
+1. 1600px
+************/
+@media only screen and (max-width: 1600px)
+{
+	
+}
+
+/************
+2. 1440px
+************/
+
+@media only screen  and (max-width: 1440px)
+{
+
+	.main_nav li:not(:last-child){
+		margin-right: 2em;
+			}
+		.logo{
+			margin: 0 4em;
+		}
+		.search_button
+{
+	margin-left: 40px;
+	
+}
+
+}
+
+
+/************
+3. 1380px
+************/
+
+@media only screen and (max-width: 1324px)
+{
+	.main_nav li:not(:last-child){
+		margin-right: 2em;
+			}
+		.logo{
+			margin: 0 3em;
+		}
+		.search_button
+{
+	margin-left: 35px;
+	
+}
+}
+
+/************
+3. 1280px
+************/
+
+@media only screen and (max-width: 1289px)
+{
+	.main_nav li:not(:last-child){
+		margin-right: 1.5em;
+			}
+		.logo{
+			margin: 0 2em;
+		}
+		.search_button
+{
+	margin-left: 30px;
+	
+}
+}
+@media only screen and (max-width: 1211px)
+{
+	.main_nav li:not(:last-child){
+		margin-right: 1em;
+			}
+		.logo{
+			margin: 0 1.5em;
+		}
+		.search_button
+{
+	margin-left: 25px;
+	
+}
+}
+@media only screen and (max-width: 1149px)
+{
+	.main_nav li:not(:last-child){
+		margin-right: 0.5em;
+			}
+		.logo{
+			margin: 0 1em;
+		}
+		.search_button
+{
+	margin-left: 20px;
+	
+}
+}
+@media only screen and (max-width: 1089px)
+{
+	.main_nav li:not(:last-child){
+		margin-right: 0.2em;
+			}
+		.logo{
+			margin-right: 0.5em;
+			margin-left: 0em;
+		}
+		.search_button
+{
+	margin-left: 5px;
+	
+}
+}
+@media only screen and (max-width: 1029px)
+{
+	.main_nav,
+	.search_button
+	{
+		display: none;
+	}
+	.top_bar_contact_list li i,
+	.top_bar_contact_list li > div,
+	.login_button a
+	{
+		font-size: 12px;
+	}
+	.login_button
+	{
+		width: 140px;
+	}
+	.hamburger
+	{
+		display: inline-block;
+		position: absolute;
+	right: 0%;
+	margin-right: 2em;
+	
+	}
+	.login_button a .fa{
+		margin: 0 0.2em;
+		
+	}
+		
+}
+
+/************
+4. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+	.sidebar
+	{
+		padding-left: 20px;
+	}
+	
+}
+
+/************
+4. 1100px
+************/
+
+@media only screen and (max-width: 1100px)
+{
+	
+}
+
+/************
+5. 1024px
+************/
+
+@media only screen and (max-width: 1024px)
+{
+	
+}
+
+/************
+6. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+	.main_nav,
+	.search_button
+	{
+		display: none;
+	}
+	.top_bar_contact_list li i,
+	.top_bar_contact_list li > div,
+	.login_button a
+	{
+		font-size: 12px;
+	}
+	.login_button
+	{
+		width: 140px;
+	}
+	.hamburger
+	{
+		display: inline-block;
+		position: absolute;
+	right: 0%;
+	}
+	.about_col:not(:last-child)
+	{
+		margin-bottom: 40px;
+	}
+	.about_info
+	{
+	    height: auto;
+	    padding-top: 30px;
+	    padding-bottom: 30px;
+	}
+	.about_info_item:not(:last-child)
+	{
+		margin-bottom: 25px;
+	}
+	.about_info_item:not(:last-child)::after
+	{
+		display: none;
+	}
+	
+	.sidebar
+	{
+		margin-top: 100px;
+		padding-left: 0;
+		padding-top: 0;
+	}
+	.newsletter_container
+	{
+		height: auto;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.newsletter_form_container
+	{
+		margin-top: 19px;
+	}
+	.footer_col:not(:last-child)
+	{
+		margin-bottom: 60px;
+	}
+	.footer_contact,
+	.footer_links
+	{
+		padding-left: 0;
+	}
+	.footer_links ul
+	{
+		columns: 1;
+		-webkit-columns: 1;
+		-moz-columns: 1;
+	}
+	.footer_mobile
+	{
+		float: none;
+	}
+	.footer_logo_container
+	{
+		margin-top: 0;
+	}
+	.copyright
+	{
+	    height: auto;
+	    padding-top: 30px;
+	    padding-bottom: 30px;
+	}
+	.cr_list
+	{
+		margin-top: 30px;
+	}
+	.cr_list li:not(:last-child)
+	{
+		margin-right: 20px;
+	}
+	.copyright div,
+	.cr_list li a
+	{
+		font-size: 13px;
+	}
+}
+
+/************
+7. 959px
+************/
+
+@media only screen and (max-width: 959px)
+{
+	
+}
+
+/************
+8. 880px
+************/
+
+@media only screen and (max-width: 880px)
+{
+	
+}
+
+/************
+9. 768px
+************/
+
+@media only screen and (max-width: 768px)
+{
+	
+}
+
+/************
+10. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+	.top_bar
+	{
+		display: none;
+	}
+	
+	
+}
+
+/************
+11. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+	h2
+	{
+		font-size: 24px;
+	}
+	p
+	{
+		font-size: 13px;
+	}
+	.menu
+	{
+		width: 100%;
+		right: -100%;
+	}
+	.dropdown_item_select,
+	.home_search_button
+	{
+		font-size: 12px;
+	}
+	.tab_panel_text p,
+	.tab_panel_bullets li,
+	.accordion_panel p
+	{
+		font-size: 13px;
+	}
+	.accordion div
+	{
+		font-size: 16px;
+	}
+	.tab
+	{
+		font-size: 12px;
+	}
+	
+	.has_children > .dropdown_item > .dropdown_item_title::after
+	{
+		font-size: 26px;
+		top: -7px;
+	}
+	
+	.review_rating_num
+	{
+		font-size: 56px;
+	}
+	
+	.review_rating_text
+	{
+		font-size: 14px;
+		margin-top: 6px;
+	}
+	.comments_list li ul
+	{
+		padding-left: 30px;
+	}
+	.newsletter_form_container
+	{
+		width: 100%;
+		padding-left: 0;
+	}
+}
+
+/************
+11. 539px
+************/
+
+@media only screen and (max-width: 539px)
+{
+	
+}
+
+/************
+12. 480px
+************/
+
+@media only screen and (max-width: 480px)
+{
+	
+}
+
+/************
+13. 479px
+************/
+
+@media only screen and (max-width: 479px)
+{
+	
+}
+
+/************
+14. 400px
+************/
+
+@media only screen and (max-width: 400px)
+{
+	
+}

@@ -1,0 +1,254 @@
+/* Top-Navigation Layout*/
+.navigation-top{
+    background-color: #10a5eb;
+    position: relative;
+    display: flex;
+    
+}
+ .top-navigation-item{
+margin-left: 150px;
+padding: 8px;
+
+}
+.top-navigation-item>span{
+    margin-left: 30px;
+    color: whitesmoke;
+   
+}
+.login-button>a{
+
+
+
+font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        color: #384158;
+       
+}
+.login-button>a:hover{
+    text-decoration: none;
+    color: #384158 ;
+} 
+.navigation-top>.login-button{
+    height: 100%;
+    background-color: #f3f3f3;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin-right: 250px;
+    width: 200px;
+    text-align: center;
+    
+}
+/* Menu-Navigation Layout*/  
+
+.navbar-nav .nav-link {
+    color:black;
+    font-weight: bold;
+margin-left: 10px;
+}
+.navbar-nav .nav-link:hover {
+    color: #10a5eb;
+    
+}
+/* Search Function Layout*/
+#search {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #10a5eb;
+    margin-top: 0px;
+    display: none;
+
+} 
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid white;
+    float: right;
+    width: 30%;
+    background: white;
+
+  }
+  
+  form.example button {
+    float: right;
+    width: 4%;
+    padding: 10px;
+    border: 1px solid #dddcdc;
+    background: #dddcdc;
+    color: black;
+    font-size: 17px;
+    
+    border-left: none;
+    cursor: pointer;
+    margin-right: 200px;
+  }
+  
+  
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .navbar-nav{
+      margin-left: 150px;
+  }
+  .navbar-brand{
+      margin-left: 100px;
+  }
+/* Toggle Menu Style*/
+
+  .menu-toggle{
+      float: right;
+      font-size: xx-large;
+      display: none;
+  }
+  
+  .menu-toggle .fa:hover{
+      color: #10a5eb;
+  }
+  @media screen and (max-width:958px)
+  {
+    .menu-toggle{
+        display: block;
+        cursor: pointer;
+    }
+    .navbar-nav .nav-item{
+        display: none;
+    }
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  .sidenav a:hover {
+    color: #10a5eb;
+    text-decoration: none;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: black;
+  }
+
+  .sidenav .closebtn:hover{
+color:brown ;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+ /* Carousel Layout*/
+ #next,#prev{
+     font-size: 20px;
+     
+     
+     
+    
+ }
+.carousel-control-next>span:hover{
+   
+    background-color:#10a5eb;
+    cursor: pointer;
+    
+}
+.carousel-control-prev>span:hover{
+   
+    background-color:#10a5eb;
+    cursor: pointer;
+    
+}
+.carousel-item{
+    position: relative;
+}
+.carousel-caption{
+    position: absolute;
+    top: 60%;
+    margin-left: 25%;
+   
+}
+.carousel-control-next>span{
+    background-size: 30rem;
+    background-color: #384158;
+    border-radius: 30px;
+}
+.carousel-control-prev>span{
+    background-size: 30rem;
+    background-color: #384158;
+    border-radius: 30px;
+}
+
+
+/* Insurance section layout */
+.card{
+    width: 18rem;
+    box-shadow: 8px 6px rgba(88, 88, 88,0.05);
+   
+    
+    
+}
+.card-group{
+    margin-bottom: 60px;
+}
+.insurance-content{
+    margin-top: 100px;
+    width: 70%;
+    margin-left: 15%;
+}
+.card-body a{
+    color:black;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+.card-body a:hover{
+    text-decoration: none;
+    color: #10a5eb;
+
+}
+.card-body p{
+    margin-top: 25px;
+}
+.card-body h6{
+    margin-top: 5px;
+}
+.insurance-content-text{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#iop{
+    margin-right: 40px;
+    border-radius: 15px;
+    
+}
+#iop1{
+    margin-right: 40px;
+}
